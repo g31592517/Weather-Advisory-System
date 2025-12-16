@@ -1,0 +1,62 @@
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::                (v3.2.0)
+
+2025-12-15T21:30:41.119+03:00  INFO 28272 --- [           main] .a.AgriculturalWeatherBackendApplication : Starting AgriculturalWeatherBackendApplication v1.0.0 using Java 25.0.1 with PID 28272 (/home/gohon/Desktop/Weather advisoory/backend/target/agriculturalweatherbackend-1.0.0.jar started by gohon in /home/gohon/Desktop/Weather advisoory/backend)
+2025-12-15T21:30:41.123+03:00 DEBUG 28272 --- [           main] .a.AgriculturalWeatherBackendApplication : Running with Spring Boot v3.2.0, Spring v6.1.1
+2025-12-15T21:30:41.124+03:00  INFO 28272 --- [           main] .a.AgriculturalWeatherBackendApplication : No active profile set, falling back to 1 default profile: "default"
+2025-12-15T21:30:42.797+03:00  INFO 28272 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+2025-12-15T21:30:42.908+03:00  INFO 28272 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 104 ms. Found 2 MongoDB repository interfaces.
+2025-12-15T21:30:43.235+03:00  INFO 28272 --- [           main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=fe8b09d6-3fff-3841-8e9e-6d0ba72652cc
+WARNING: A restricted method in java.lang.System has been called
+WARNING: java.lang.System::load has been called by org.apache.tomcat.jni.Library in an unnamed module (jar:nested:/home/gohon/Desktop/Weather advisoory/backend/target/agriculturalweatherbackend-1.0.0.jar/!BOOT-INF/lib/tomcat-embed-core-10.1.16.jar!/)
+WARNING: Use --enable-native-access=ALL-UNNAMED to avoid a warning for callers in this module
+WARNING: Restricted methods will be blocked in a future release unless native access is enabled
+
+2025-12-15T21:30:44.118+03:00  INFO 28272 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-12-15T21:30:44.146+03:00  INFO 28272 --- [           main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-12-15T21:30:44.147+03:00  INFO 28272 --- [           main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.16]
+2025-12-15T21:30:44.289+03:00  INFO 28272 --- [           main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-12-15T21:30:44.291+03:00  INFO 28272 --- [           main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 3010 ms
+2025-12-15T21:30:45.205+03:00  INFO 28272 --- [           main] org.mongodb.driver.client                : MongoClient with metadata {"driver": {"name": "mongo-java-driver|sync|spring-boot", "version": "4.11.1"}, "os": {"type": "Linux", "name": "Linux", "architecture": "amd64", "version": "6.12.32-amd64"}, "platform": "Java/Oracle Corporation/25.0.1+8-LTS-27"} created with settings MongoClientSettings{readPreference=primary, writeConcern=WriteConcern{w=null, wTimeout=null ms, journal=null}, retryWrites=true, retryReads=true, readConcern=ReadConcern{level=null}, credential=null, transportSettings=null, streamFactoryFactory=null, commandListeners=[], codecRegistry=ProvidersCodecRegistry{codecProviders=[ValueCodecProvider{}, BsonValueCodecProvider{}, DBRefCodecProvider{}, DBObjectCodecProvider{}, DocumentCodecProvider{}, CollectionCodecProvider{}, IterableCodecProvider{}, MapCodecProvider{}, GeoJsonCodecProvider{}, GridFSFileCodecProvider{}, Jsr310CodecProvider{}, JsonObjectCodecProvider{}, BsonCodecProvider{}, EnumCodecProvider{}, com.mongodb.client.model.mql.ExpressionCodecProvider@66bf40e5, com.mongodb.Jep395RecordCodecProvider@2291d9a0, com.mongodb.KotlinCodecProvider@5e26f1ed]}, loggerSettings=LoggerSettings{maxDocumentLength=1000}, clusterSettings={hosts=[localhost:27017], srvServiceName=mongodb, mode=SINGLE, requiredClusterType=UNKNOWN, requiredReplicaSetName='null', serverSelector='null', clusterListeners='[]', serverSelectionTimeout='30000 ms', localThreshold='15 ms'}, socketSettings=SocketSettings{connectTimeoutMS=10000, readTimeoutMS=0, receiveBufferSize=0, proxySettings=ProxySettings{host=null, port=null, username=null, password=null}}, heartbeatSocketSettings=SocketSettings{connectTimeoutMS=10000, readTimeoutMS=10000, receiveBufferSize=0, proxySettings=ProxySettings{host=null, port=null, username=null, password=null}}, connectionPoolSettings=ConnectionPoolSettings{maxSize=100, minSize=0, maxWaitTimeMS=120000, maxConnectionLifeTimeMS=0, maxConnectionIdleTimeMS=0, maintenanceInitialDelayMS=0, maintenanceFrequencyMS=60000, connectionPoolListeners=[], maxConnecting=2}, serverSettings=ServerSettings{heartbeatFrequencyMS=10000, minHeartbeatFrequencyMS=500, serverListeners='[]', serverMonitorListeners='[]'}, sslSettings=SslSettings{enabled=false, invalidHostNameAllowed=false, context=null}, applicationName='null', compressorList=[], uuidRepresentation=JAVA_LEGACY, serverApi=null, autoEncryptionSettings=null, dnsClient=null, inetAddressResolver=null, contextProvider=null}
+2025-12-15T21:30:45.244+03:00  INFO 28272 --- [localhost:27017] org.mongodb.driver.cluster               : Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=21, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=48140156}
+2025-12-15T21:30:46.661+03:00  INFO 28272 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path ''
+2025-12-15T21:30:46.699+03:00  INFO 28272 --- [           main] .a.AgriculturalWeatherBackendApplication : Started AgriculturalWeatherBackendApplication in 6.564 seconds (process running for 7.818)
+🚀 Starting frontend server at: /home/gohon/Desktop/Weather advisoory/backend/../fronted/farm-weather-guide
+✅ Frontend server started successfully
+🌐 Frontend: http://localhost:5173
+🔧 Backend:  http://localhost:8080
+
+> vite_react_shadcn_ts@0.0.0 dev
+> vite
+
+Port 8080 is in use, trying another one...
+Port 8081 is in use, trying another one...
+
+  VITE v5.4.19  ready in 3052 ms
+
+  ➜  Local:   http://localhost:8082/
+  ➜  Network: http://10.105.0.172:8082/
+  ➜  Network: http://10.111.2.3:8082/
+  ➜  press h + enter to show help
+🛑 Shutting down frontend server...
+Exception in thread "SpringApplicationShutdownHook" java.lang.NoClassDefFoundError: ch/qos/logback/classic/spi/ThrowableProxy
+	at ch.qos.logback.classic.spi.LoggingEvent.<init>(LoggingEvent.java:143)
+	at ch.qos.logback.classic.Logger.buildLoggingEventAndAppend(Logger.java:424)
+	at ch.qos.logback.classic.Logger.filterAndLog_0_Or3Plus(Logger.java:386)
+	at ch.qos.logback.classic.Logger.log(Logger.java:780)
+	at org.apache.commons.logging.LogAdapter$Slf4jLocationAwareLog.warn(LogAdapter.java:445)
+	at org.springframework.context.support.AbstractApplicationContext.doClose(AbstractApplicationContext.java:1081)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.doClose(ServletWebServerApplicationContext.java:174)
+	at org.springframework.context.support.AbstractApplicationContext.close(AbstractApplicationContext.java:1037)
+	at org.springframework.boot.SpringApplicationShutdownHook.closeAndWait(SpringApplicationShutdownHook.java:145)
+	at java.base/java.lang.Iterable.forEach(Iterable.java:75)
+	at org.springframework.boot.SpringApplicationShutdownHook.run(SpringApplicationShutdownHook.java:114)
+	at java.base/java.lang.Thread.run(Thread.java:1474)
+Caused by: java.lang.ClassNotFoundException: ch.qos.logback.classic.spi.ThrowableProxy
+	... 12 more
